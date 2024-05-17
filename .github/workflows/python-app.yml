@@ -18,7 +18,7 @@ jobs:
           python -m pip install --upgrade pip
       - name: Test with unittest
         run: |
-          cd Forkeo\PythonWorkshop
+          cd Forkeo/PythonWorkshop
           Python3 test_solver.py
 
 #comentario3
